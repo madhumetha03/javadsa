@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int size=sc.nextInt();
+        switch(size){
+            case 30:
+                System.out.println("its Medium");
+                break;
+            case 38:
+                System.out.println("its large");
+                break;
+            case 40:
+                System.out.println("its XLarge");
+                break;
+            default:
+            System.out.println("Invalid Size");
+        }
+    }
+}
